@@ -93,6 +93,13 @@ body {
   font-family: "Poppins", "Segoe UI", Arial, sans-serif;
   background: var(--main-bg);
   color: #222;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .site-header {
@@ -2278,7 +2285,7 @@ body {
 
   /* Header adjustments */
   .site-header {
-    padding: 10px 20px !important;
+    padding: 10px 15px !important;
     height: 70px !important;
   }
 
@@ -2312,13 +2319,64 @@ body {
     height: 30px !important;
   }
 
-  /* Typography Scaling */
+  /* Hero Section Mobile */
   .hero-title {
-    font-size: 60px !important;
+    font-size: 50px !important;
+    letter-spacing: -1px !important;
   }
 
   .hero-subtitle {
-    font-size: 18px !important;
+    font-size: 16px !important;
+    padding: 0 10px !important;
+  }
+
+  .hero-actions {
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 0 20px !important;
+    gap: 15px !important;
+  }
+
+  .btn {
+    width: 100% !important;
+    padding: 15px 20px !important;
+    font-size: 16px !important;
+  }
+
+  /* Productos Section Mobile */
+  .productos-section {
+    padding: 40px 0 !important;
+  }
+
+  .productos-container {
+    flex-direction: column !important;
+    gap: 30px !important;
+    padding: 0 20px !important;
+  }
+
+  .productos-header-side {
+    flex: none !important;
+    width: 100% !important;
+  }
+
+  .productos-title {
+    font-size: 45px !important;
+    letter-spacing: -1px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .productos-subtitle {
+    font-size: 20px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .brand-image-box {
+    margin-bottom: 30px !important;
+    min-height: 180px !important;
+  }
+
+  .sabias-que h3 {
+    font-size: 30px !important;
   }
 
   /* Footer Stacking */
