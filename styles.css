@@ -2277,6 +2277,15 @@ body {
 @media (max-width: 768px) {
 
   /* Header adjustments */
+  .site-header {
+    padding: 10px 20px !important;
+    height: 70px !important;
+  }
+
+  .logo {
+    height: 32px !important;
+  }
+
   .nav-left>.icon,
   .nav-left>.nav-link-icon,
   .nav-right {
@@ -2285,11 +2294,22 @@ body {
 
   .mobile-menu-btn {
     display: block;
+    font-size: 24px;
+  }
+
+  .mobile-nav {
+    top: 70px !important;
+    padding-top: 30px !important;
   }
 
   .search-bar-container {
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: 10px;
+  }
+
+  .search-bar {
+    min-width: 120px !important;
+    height: 30px !important;
   }
 
   /* Typography Scaling */
