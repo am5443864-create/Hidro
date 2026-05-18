@@ -1202,6 +1202,19 @@ html {
   letter-spacing: -4px;
 }
 
+@media (max-width: 768px) {
+  .mas-vendido-section {
+    padding: 30px 15px;
+  }
+  .mv-title {
+    font-size: 13vw;
+    letter-spacing: -2px;
+  }
+  .mv-card {
+    padding: 20px 10px;
+  }
+}
+
 .mv-card {
   background: transparent;
   /* Removed background */
@@ -2214,7 +2227,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(180deg, rgba(216, 216, 216, 0) 0%, rgba(179, 185, 206, 0.2) 50%, rgba(39, 52, 138, 0.9) 100%);
+  background: transparent;
   z-index: 1;
   pointer-events: none;
 }
